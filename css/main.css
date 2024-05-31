@@ -1,0 +1,79 @@
+body {
+    background-color: #F7ECDE;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+.headerBookmarks {
+    position: relative;
+}
+
+.headerBookmarks::before {
+    position: absolute;
+    content: '';
+    width: 82%;
+    height: 1.25rem;
+    background-color: #FEC260;
+    bottom: 0;
+    opacity: 0.7;
+    transition: all .5s;
+}
+
+.headerBookmarks:hover::before {
+    height: 2.5rem;
+}
+
+.markfst {
+    color: #3FA55B;
+}
+
+.markscnd {
+    color: #B2AC49;
+}
+
+.headerBookmarks {
+    font-family: Pacifico, cursive;
+    font-size: 3.125rem;
+    font-weight: 31.25rem;
+}
+
+.searchbar {
+    font-family: Pacifico, cursive;
+    font-weight: 31.25rem;
+}
+
+.secondBookmark {
+    font-family: Righteous, cursive;
+    font-size: 1.5625rem;
+    font-weight: 31.25rem;
+}
+
+.secondcolor {
+    background-image: linear-gradient(to right, #3FA55B, #B1AC4A);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.otherfont {
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 1rem;
+    font-weight: 37.5rem;
+}
+
+.submit {
+    background-color: #D1512D;
+}
+
+.dots {
+    background-image: url(../image/dots_dark2.png);
+    background-repeat: repeat-x;
+}
+
+.visitbtn {
+    background-color: #97ae25;
+}
